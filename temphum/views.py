@@ -24,3 +24,5 @@ def temphum(request):
     measures = response.json()
     # Rederiza la respuesta en el template measure
     return render(request, "temphum/temphum.html", {'measures': measures})
+
+    def cultivo(request):
